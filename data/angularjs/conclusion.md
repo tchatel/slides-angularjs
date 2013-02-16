@@ -275,5 +275,5 @@ Your name: <input ng-model="me" name="name" autocomplete="off" style="font-size:
 # tests end-to-end
 
 ### outil d'automatisation de scénarios
-### qui s'appuie sur le framework
+### lié au fonctionnement de l'appli
 
