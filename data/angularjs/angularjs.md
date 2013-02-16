@@ -124,217 +124,124 @@ Aug 20, 2011    0.9.19      canine-psychokinesis
 <br/>
 
 <div class="left bigger">
-Your name: <input ng-model="name" name="name" autocomplete="off" style="font-size: 1em; width: 7em;"><br/>
-<span class="result">Hello {{name}}!</span>
+Your name: <input ng-model="me" name="name" autocomplete="off" style="font-size: 1em; width: 7em;"><br/>
+<span class="result">Hello {{me}}!</span>
 </div>
 
 <br/>
 
-    Your name: <input ng-model="name">
-    Hello {{name}}!
-
-
-
-
-
-
-
-
-
-
-
-
-
-!SLIDE subsection =================
-
-# “only talk to your friends”
+    Your name: <input ng-model="me">
+    Hello {{me}}!
 
 
 !SLIDE ============================
 
-![](fb.jpg)
+## code JavaScript
+# ↓
+# modèle
 
-![](network.jpg)
+
+!SLIDE ============================
+
+# indépendant de la vue
+
+<div class="right">![](idea.png)</div>
+
+!SLIDE image ======================
+
+![](magic.png)
 
 
-!SLIDE bullets top ====================
+!SLIDE ============================
+
+# watches
+# +
+# dirty cheching
+
+
+!SLIDE ============================
+
+![](watch.png)
+## expression = propriété, fonction, etc.
+
+
+!SLIDE image ======================
+
+![](checklist.png)
+
+
+!SLIDE image ======================
+
+![](mandelbrot.png)
+
+
+!SLIDE ============================
+
+# 2000 *watches* simples
+
+
+!SLIDE ============================
+
+# Web Components
+# Object.observe()
+
+
+!SLIDE image ======================
+
+![](structure.png)
+
+
+!SLIDE ============================
+
+# appli AngularJS ?
 
 <br/>
 
-### *une méthode ne peut appeler de méthode que :*
-
-!SLIDE bullets top ====================
-
-<br/>
-
-### *une méthode ne peut appeler de méthode que :*
-
-* de l'objet lui-même
-
-!SLIDE bullets top ====================
-
-<br/>
-
-### *une méthode ne peut appeler de méthode que :*
-
-* de l'objet lui-même
-* de ses arguments
-
-!SLIDE bullets top ====================
-
-<br/>
-
-### *une méthode ne peut appeler de méthode que :*
-
-* de l'objet lui-même
-* de ses arguments
-* d'un objet qu'elle a créé
-
-!SLIDE bullets top ====================
-                                                                                                         
-<br/>
-
-### *une méthode ne peut appeler de méthode que :*
-
-* de l'objet lui-même
-* de ses arguments
-* d'un objet qu'elle a créé
-* d'une propriété **_directe_** de l'objet
-
-
-!SLIDE subsection =================
-
-# limiter le couplage !
+    <div ng-app="myApp">
+      ...
+    </div>
 
 
 !SLIDE ============================
 
-![](spaghetti.jpg)
+# plusieurs applis
+# dans une page web
 
-
-!SLIDE ============================
-# “un seul point”
-# <span class="green">xxx.yyy</span>
-# <span class="red">xxx.yyy.zzz</span>
-
-
-!SLIDE ============================
-# <span class="red">prop.truc.methode()</span>
-
-
-!SLIDE ============================
-# <span class="red">a = prop.truc</span>
-# <span class="red">a.methode()</span>
-
-
-!SLIDE ============================
-# prop.truc().methode()
-# ?
-
-
-!SLIDE subsection =================
-
-# encapsulation
-
-
-!SLIDE ============================
-# <span class="red">prop.getInterne().methode()</span>
-
-
-!SLIDE ============================
-# <span class="green">prop.search().count()</span>
+<div class="right">![](idea.png)</div>
 
 
 !SLIDE ============================
 
-![](caisse.jpg)
+![](mono-page.png)
 
-
-!SLIDE subsection =================
-
-# “tell, don't ask”
-
-
-!SLIDE ============================
-## <span class="red">client.portemonnaie.pieces -= 3</span>
-
-
-!SLIDE left =======================
-## <span class="red">&nbsp;&nbsp;client.getPortemonnaie().setPieces(</span>
-## <span class="red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.getPortemonnaie().getPieces() - 3)</span>
-
-
-!SLIDE ============================
-## <span class="green">client.payer(3);</span>
+# appli mono-page
 
 
 !SLIDE ============================
 
-# déléguer des comportements
-### pas des propriétés
+![](routage.png)
 
+# AngularJS gère le routage
 
-!SLIDE ============================
-## [*“Why getter and setter methods are evil”*](http://www.javaworld.com/javaworld/jw-09-2003/jw-0905-toolbox.html)
-### by Allen Holub
-
-![](holub.jpg)
-
-
-!SLIDE subsection =================
-
-# danger d'un objet “contexte”
-
-
-!SLIDE ============================
-## [*“Breaking the Law of Demeter is Like Looking for a Needle in the Haystack”*](http://misko.hevery.com/2008/07/18/breaking-the-law-of-demeter-is-like-looking-for-a-needle-in-the-haystack/)
-### by Miško Hevery
-
-![](misko.jpg)
-
-
-
-!SLIDE code big ===================
-
-    class Mechanic {
-    
-        Engine engine;
-
-        Mechanic(Context context) {
-            this.engine = context.getEngine();
-        }
-    }
-
-
-
-!SLIDE back =======================
-
-![](fowler.jpg)
-
-# “loi” : à relativiser
-
-
-!SLIDE bullets ====================
-
-# violations nécessaires
-
-* {user.profile.name}
-* si les données sont un ViewModel</div>
-
-
-!SLIDE subsection =================
-
-# D D D
+![](bookmark.png)
+![](back.png)
+![](forward.png)
 
 
 !SLIDE ============================
 
-![](ddd.jpg)
+# modules
+# services
+## injection de dépendances
+
+<div class="right">![](idea.png)</div>
 
 
 !SLIDE ============================
 
-# agrégat
+# objets & fonctions JS *quelconques*
 
-![](aggr.png)
+<div class="right">![](idea.png)</div>
+
+
 
