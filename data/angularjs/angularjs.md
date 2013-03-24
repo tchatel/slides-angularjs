@@ -234,7 +234,7 @@ Your name: <input ng-model="me" name="name" autocomplete="off" style="font-size:
 
 # watches
 # +
-# dirty cheching
+# dirty checking
 
 
 !SLIDE ============================
@@ -410,5 +410,15 @@ Your name: <input ng-model="me" name="name" autocomplete="off" style="font-size:
 !SLIDE subsection =================
 
 # Exemples
+
+
+!SLIDE subsection =================
+
+# Conclusion
+
+
+!SLIDE back ========================
+
+![](new-hope.png)
 
 
