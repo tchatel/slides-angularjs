@@ -3,6 +3,70 @@
 ![](angularjs-900px.png)
 
 
+!SLIDE image ======================
+
+# Thierry Chatel
+![](photo-Thierry-Chatel.png)
+
+
+!SLIDE image ======================
+
+![](lunel.png)
+
+
+!SLIDE image ======================
+
+![](logo_methotic.png)
+
+<table>
+ <tr>
+  <td>![](architect.jpg)</td>
+  <td>![](good.png)</td>
+  <td>![](not-solid.png)</td>
+ </tr>
+</table>
+
+
+!SLIDE image ======================
+
+<table>
+ <tr>
+  <td>![](prof.png)</td>
+  <td>![](angularjs-logo.png)</td>
+ </tr>
+</table>
+
+
+!SLIDE image ======================
+
+<table>
+ <tr>
+  <td>![](java.png)</td>
+  <td>![](ibm.png)</td>
+  <td>![](trilog.png)</td>
+ </tr>
+</table>
+
+
+!SLIDE image ======================
+
+![](flowbuilder.jpg)
+
+
+!SLIDE image ======================
+
+![](angular-old.png)
+
+
+!SLIDE image ======================
+
+![](angular-new.png)
+
+
+!SLIDE image ======================
+
+![](trends.png)
+
 
 !SLIDE subsection =================
 
@@ -23,6 +87,8 @@
 AngularJS versions
 
 Release Date    Version     Codename
+Feb 20, 2013    1.1.3       radioactive-gargle
+Feb 20, 2013    1.0.5       flatulent-propulsion
 Jan 22, 2013    1.1.2       tofu-animation
 Jan 22, 2013    1.0.4       bewildering-hair
 Nov 26, 2012    1.1.1       pathological-kerning
@@ -79,6 +145,18 @@ Aug 20, 2011    0.9.19      canine-psychokinesis
 !SLIDE image ======================
 
 ![](trello.png)
+
+
+!SLIDE image ======================
+
+![](doubleclick.jpg)
+
+<table style="width: 100%">
+ <tr>
+  <td style="text-align: right">![](angularjs-logo-small.png)</td>
+ </tr>
+</table>
+<br/><br/>
 
 
 !SLIDE image ======================
@@ -267,7 +345,7 @@ Your name: <input ng-model="me" name="name" autocomplete="off" style="font-size:
 # facilement testable
 
 ### tests unitaires de tout le code JS
-### avec [Testacular](http://vojtajina.github.com/testacular/)
+### avec [Karma](http://karma-runner.github.com/) (ex-Testacular)
 
 
 !SLIDE ============================
@@ -313,4 +391,24 @@ Your name: <input ng-model="me" name="name" autocomplete="off" style="font-size:
 ![](angular-seed.png)
 
 # angular-seed sur GitHub
+
+
+!SLIDE back ========================
+
+![](egghead.png)
+
+# vidéos sur EggHead
+
+
+!SLIDE back ========================
+
+![](frangular.png)
+
+# FrAngular
+
+
+!SLIDE subsection =================
+
+# Exemples
+
 
