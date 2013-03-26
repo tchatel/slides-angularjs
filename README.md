@@ -1,4 +1,4 @@
 slides-angularjs
 ================
 
-Slides de présentation d'AngularJS à LyonJS et au Marseille JUG
+Slides de présentation d'AngularJS à Devoxx France 2013
