@@ -407,18 +407,15 @@ Your name: <input ng-model="me" name="name" autocomplete="off" style="font-size:
 # FrAngular
 
 
+!SLIDE back ========================
+
+![](angularjs-france.png)
+
+# Communauté Google+
+
+
 !SLIDE subsection =================
 
 # Exemples
-
-
-!SLIDE subsection =================
-
-# Conclusion
-
-
-!SLIDE back ========================
-
-![](new-hope.png)
 
 
